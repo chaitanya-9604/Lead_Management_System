@@ -4,7 +4,7 @@ import Auth from './components/Auth.jsx'
 import { auth } from './firebase.js'
 import { onAuthStateChanged, signOut } from 'firebase/auth'
 
-const API_URL = 'http://127.0.0.1:8000'
+const API_URL = 'https://lead-management-system-rq3f.onrender.com'
 
 function getInitials(name) {
   return name.split(' ').map((w) => w[0]).join('').slice(0, 2).toUpperCase()
