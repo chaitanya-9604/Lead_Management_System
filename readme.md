@@ -143,9 +143,10 @@ SQLite, file-based. Table `leads`:
 - `created` — TEXT (date, YYYY-MM-DD)
 
 ## Screenshots
-
 Screenshots/login.png
+
 Screenshots/dashboard.png
+
 Screenshots/add-lead.png
 
 ## Live Demo
