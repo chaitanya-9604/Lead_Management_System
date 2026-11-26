@@ -60,17 +60,14 @@ python --version
 ```
 
 ## How to Run (from GitHub clone)
-
 ### 1. Clone the repo
 
 ```
-git clone https://github.com/chaitanya-9604/lead-management-system.git
-cd lead-management-system
+git clone https://github.com/chaitanya-9604/Lead_Management_System.git
+cd Lead_Management_System
 ```
 
-> Note: Folder ka naam `LMS` bhi ho sakta hai, `cd` me wahi naam use karo jo download hone ke baad dikhe.
-
-### 2. Backend chalao (Terminal 1)
+### 2. Run Backend  (Terminal 1)
 
 ```
 cd backend
@@ -78,21 +75,19 @@ python -m pip install fastapi uvicorn
 python -m uvicorn main:app --reload
 ```
 
-Backend chalega yaha:
+here is Backend running:
 
 ```
 http://127.0.0.1:8000
 ```
 
-API docs yaha khulenge:
+API docs will open form here:
 
 ```
 http://127.0.0.1:8000/docs
 ```
 
-Ye terminal band mat karna — backend isi me chalega. `leads.db` file `backend` folder me apne aap ban jayegi.
-
-### 3. Frontend chalao (Terminal 2 — nayi terminal)
+### 3. run Frontend  (Terminal 2 — New terminal)
 
 ```
 cd LMS
@@ -100,26 +95,11 @@ npm install
 npm run dev
 ```
 
-Frontend chalega yaha:
+Frontend will run here:
 
 ```
 http://localhost:5173
 ```
-
-### 4. Firebase setup (Login/Signup ke liye)
-
-`src/firebase.js` me Firebase config pehle se hai.
-
-Agar tum apna Firebase project use karna chahte ho:
-1. `console.firebase.google.com` pe project banao
-2. **Authentication > Sign-in method > Email/Password > Enable** karo
-3. **Project settings > Your apps > Web app** banao, config copy karo
-4. Apna config `src/firebase.js` me daalo
-
-Phir browser me:
-1. **Sign Up** se account banao (password kam se kam 6 character)
-2. Signup ke baad dashboard apne aap khul jayega
-3. **Logout** karke usi email/password se **Login** karke dekho
 
 ## API Endpoints
 
@@ -170,5 +150,7 @@ Screenshots/add-lead.png
 
 ## Live Demo
 
-- Frontend (Vercel): _add link after deploy_
-- Backend (Render): _add link after deploy_
+- **Frontend:** https://lead-management-system-five-wheat.vercel.app
+- **Backend API:** https://lead-management-system-rq3f.onrender.com
+- **API Docs:** https://lead-management-system-rq3f.onrender.com/docs
+- **GitHub Repo:** https://github.com/chaitanya-9604/Lead_Management_System
